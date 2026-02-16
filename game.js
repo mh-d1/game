@@ -78,10 +78,11 @@ const clock = new THREE.Clock();
 
 const modelFiles = [
     { file:'model/map.glb', name:'Map' },
-    { file:'model/hands.glb', name:'Hands' },
-    { file:'model/sniper.glb', name:'Sniper' },
-    { file:'model/ak47.glb', name:'AK47' },
-    { file:'model/mp40.glb', name:'MP40' }
+    { file:'model/fpshand.glb', name:'Hands' },
+    { file:'model/awm.glb', name:'Sniper' },
+    { file:'model/akm.glb', name:'AK47' },
+    { file:'model/human.glb', name:'player' },
+    
 ];
 
 const models = {};
