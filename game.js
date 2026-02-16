@@ -199,6 +199,16 @@ function animate(){
 
     renderer.render(scene, camera);
 }
+
+
+playBtn.addEventListener('click', ()=>{
+    console.log("Play clicked"); // pastikan muncul di console
+    playBtn.style.display = 'none';
+    weaponSelect.style.display = 'block';
+});
+
+
+
 animate();
 
 // =======================
